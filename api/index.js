@@ -25,7 +25,7 @@ mongoose.connection.on('connected', () => {
     console.log('Mongoose disconnected');
   });
 
-app.listen(3001,()=>{
+app.listen(process.env.PORT,()=>{
     console.log("Backend is running !!")
 })
   
@@ -33,7 +33,7 @@ app.listen(3001,()=>{
 app.use(express.json());
 app.use(helmet());
 app.use(morgan("common"));
-app.use("/api/users",userRoute)
+app.use("/api/users",userRoute) 
 app.use("/api/auth",authRoute)
 app.use("/api/posts",postRoute)
 
