@@ -127,7 +127,7 @@ This project was inspired by Facebook's design and functionality. Thanks to the 
 
 ## Contact
 
-For any questions or inquiries, please contact [Your Name](mailto:your.email@example.com).
+For any questions or inquiries, please contact [Biraj Mahanta](mailto:bmahanta.work@gmail.com).
 
 ---
 
